@@ -14,7 +14,7 @@ jobs:
       - uses: k2bd/advent-readme-stars@v1
         with:
           userId: danaetroupe
-          leaderboardId: 5537359-de2e6f45
+          leaderboardId: 5537359
           sessionCookie: ${{ secrets.AOC_SESSION }}
       - uses: stefanzweifel/git-auto-commit-action@v5 # use v5
         with:
